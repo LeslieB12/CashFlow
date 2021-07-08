@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Assessment" name="Assessment">a69d02137f232200ee2e108c3ffa9124</category>
+        <collection>x_626735_cashflow_expenses</collection>
+        <condition table="x_626735_cashflow_expenses">amount&gt;javascript:global.getCurrencyFilter('x_626735_cashflow_expenses','amount', 'USD;1000')^EQ<item endquery="false" field="amount" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:global.getCurrencyFilter('x_626735_cashflow_expenses','amount', 'USD;1000')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>The amount you entered: ${amount} is over $1,000. Please verify the amount and continue.<br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>$1,000 Alert</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>sys_created_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 18:31:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fa35b401bd13010cd55404cbc4bcbb2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>$1,000 Alert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CashFlow" source="x_626735_cashflow">9d7cfd3b1b013010cd55404cbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CashFlow">9d7cfd3b1b013010cd55404cbc4bcb24</sys_scope>
+        <sys_update_name>sysevent_email_action_4fa35b401bd13010cd55404cbc4bcbb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 18:58:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CashFlow">9d7cfd3b1b013010cd55404cbc4bcb24</application>
+        <file_path/>
+        <instance_id>d6f7e9ffdb97d3444f035d00cf961948</instance_id>
+        <instance_name>dev66282</instance_name>
+        <name>sysevent_email_action_4fa35b401bd13010cd55404cbc4bcbb2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Assessment" name="Assessment"&gt;a69d02137f232200ee2e108c3ffa9124&lt;/category&gt;&lt;collection&gt;x_626735_cashflow_expenses&lt;/collection&gt;&lt;condition table="x_626735_cashflow_expenses"&gt;amount&amp;gt;javascript:global.getCurrencyFilter('x_626735_cashflow_expenses','amount', 'USD;1000')^EQ&lt;item endquery="false" field="amount" goto="false" newquery="false" operator="&amp;gt;" or="false" value="javascript:global.getCurrencyFilter('x_626735_cashflow_expenses','amount', 'USD;1000')"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;The amount you entered: ${amount} is over $1,000. Please verify the amount and continue.&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;$1,000 Alert&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;sys_created_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;6816f79cc0a8016401c5a33be04be441&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject/&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-07 18:31:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4fa35b401bd13010cd55404cbc4bcbb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;$1,000 Alert&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CashFlow" source="x_626735_cashflow"&gt;9d7cfd3b1b013010cd55404cbc4bcb24&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CashFlow"&gt;9d7cfd3b1b013010cd55404cbc4bcb24&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_4fa35b401bd13010cd55404cbc4bcbb2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-07 18:58:33&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>404386441</payload_hash>
+        <record_name>$1,000 Alert</record_name>
+        <reverted_from/>
+        <source>9d7cfd3b1b013010cd55404cbc4bcb26</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 18:58:34</sys_created_on>
+        <sys_id>c69dd7081bd13010cd55404cbc4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a825607b60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 18:58:34</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>429dd70834d130109fa0272495f558ea</update_guid>
+        <update_guid_history>429dd70834d130109fa0272495f558ea:404386441,b4bb1f04e0d13010b19f91b785af359d:203918214,849b1f04e0d13010c18b71ea5f8435ec:-521596076,031893c055d13010137ee4b97a5d4de1:1669783264,86671704eed130104d7bfbd2ba1bb02e:297767525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 02:16:19</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>27d80bf6dba14bccbb698b47160c8424</sys_id>
+        <sys_metadata>4fa35b401bd13010cd55404cbc4bcbb2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>$1,000 Alert</sys_name>
+        <sys_package display_value="CashFlow" source="x_626735_cashflow">9d7cfd3b1b013010cd55404cbc4bcb24</sys_package>
+        <sys_parent display_value="Expenses">d10e71bb1b013010cd55404cbc4bcb3b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CashFlow">9d7cfd3b1b013010cd55404cbc4bcb24</sys_scope>
+        <sys_scope_delete display_value="">1935a24688ac4354bf00e0b11fe3b2c4</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_4fa35b401bd13010cd55404cbc4bcbb2</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_4fa35b401bd13010cd55404cbc4bcbb2">c69dd7081bd13010cd55404cbc4bcbea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 02:16:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
